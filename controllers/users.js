@@ -69,4 +69,10 @@ const updateUser = (req, res)=> {
 
     res.send(`User with the id ${id} has been updated.`);
 }
-module.exports = { getAllUsers: getAllUsers, createUser: createUser, getUser: getUser, deleteUser: deleteUser, updateUser: updateUser };
+module.exports = { 
+    getAllUsers,
+    createUser,
+    getUser, 
+    deleteUser, 
+    updateUser
+};
